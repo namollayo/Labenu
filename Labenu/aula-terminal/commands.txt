@@ -1,0 +1,20 @@
+git branch - vai listar as versões da git
+git branch 
+
+Terminal é um programa do tipo linha de comando que interage com o sistema operacional. 
+pwd(print working directory)
+cd(change directory)
+cd .. (volta o diretório)
+cd - vai para ultimo diretorio acessado
+mkdir (make directory)
+ls (list)
+cp (copy)
+cp (copy em outro diretorio) referecia.x ../copyreferencia.x
+rm (remove) - arquivos
+rmdir (remove) - pasta
+rm -r(remove) - arquivos e pastas (pede permissão)
+rm -rf(remove) - arquivos e pastas
+touch (cria arquivo de referencia)
+recuva
+clear
+
