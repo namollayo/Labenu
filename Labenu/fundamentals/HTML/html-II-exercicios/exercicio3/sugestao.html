@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sugestão de clima</title>
+  </head>
+
+  <body>
+    <header class="a">
+      <h1><a href="./index.html">Simulador de Climas</a></h1>
+    </header>
+    <main class="b">
+      <section class="c">
+        <!-- Seu formukário aqui!-->
+        <form>
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nome"
+            required="true"
+          >
+          <br>
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <br>
+          <label for="weathersuggestion">Sugestão de clima:</label>
+          <select name="weathersuggestion" id="weathersuggestion" required="true">
+            <option value=""></option>
+            <option value="chuva">Chuva</option>
+            <option value="animaisnomato">Animais no Mato</option>
+            <option value="tempestade">Tempestade</option>
+          </select>
+          <br>
+          <button type="submit">Enter</button>
+        </form>
+      </section>
+    </main>
+    <footer class="e">uhul</footer>
+  </body>
+</html>
