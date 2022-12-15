@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+header, footer {
+    height: 40px ;
+    padding: 10px;
+    color: white;
+}
+header {
+    background-color: rgb(255, 191, 72);
+    border-bottom: 2px solid black;
+}
+
+main {
+    width: 90vw;
+    height: 80vh;
+    margin: 15px;
+    padding: 20px 30px;
+}
+
+article{
+    margin: 25px 0 25px 0;
+}
+
+footer{
+    background-color: black;
+}
+
+.destaque {
+    color: rgb(230, 153, 10)
+}
+
+h1,h2 {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}

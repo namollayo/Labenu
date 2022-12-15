@@ -1,0 +1,21 @@
+h1 {
+    background-color: rgb(129, 129, 199);
+    color: white;
+}
+
+h2 {
+    background-color: rgb(255, 255, 176);
+}
+
+section {
+    background-color: rgb(178, 238, 178);
+}
+
+.titulo-secao {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
