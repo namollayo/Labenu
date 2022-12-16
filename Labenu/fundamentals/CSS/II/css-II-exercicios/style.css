@@ -1,0 +1,51 @@
+header {
+    width: 100%;  
+    border-bottom: 1px solid black;
+  }
+
+  header > h1,h3 {
+    text-align: center;
+  }
+  
+  main {
+    width: 100vw;
+  }
+
+  section {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  aside {
+    width: 180px;
+    border: 1px solid black;
+    text-align: center;
+    position: fixed;
+    bottom: 10vh;
+    right: 2vw;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    font-family: serif;
+  }
+
+  aside:has(button:active) {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  button:active {
+    background-color: #fff;
+    color: #000;
+  }

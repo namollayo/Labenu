@@ -1,0 +1,11 @@
+section { 
+    color: rgb(255, 183, 50);
+}
+
+.texto-com-background {
+    background-color: yellow;
+}
+
+#texto-com-outra-cor{
+    color: green;
+}
