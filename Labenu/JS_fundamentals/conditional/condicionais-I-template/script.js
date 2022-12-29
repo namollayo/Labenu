@@ -41,5 +41,5 @@ if ((age >= 16 && age < 18) || age >= 60) {
 } else if (age < 18) {
     alert("Can't vote")
 } else {
-    alert("Informação inserida inválida")
+    alert("Invalid data")
 }
