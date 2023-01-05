@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.background {
+    background-color: #1b1a1a;
+    height: 100vh;
+}
+
+.card{
+    width: 27.5rem;
+    height: 13.125rem;
+    left: 0.625rem;
+    top: 3.75rem;
+    position: relative;
+    background: #F4BDC9;
+    border-radius: 0.75rem;
+    padding: 1.563rem 0 0 1.438rem ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pokemon-id {
+    font-family: 'Inter', sans-serif;
+    color: #ffff;
+    font-weight: 700;
+
+}
+.pokemon-id > h1 {
+    font-size: 32px; 
+    margin: -5px
+}
+
+.type {
+    margin-top: 0.625rem;
+    width: 5.563rem;
+    height: 1.938rem;
+    background-color: rgb(251, 138, 236);
+    border: 0.06rem dashed rgba(255, 255, 255, 0.47);
+    border-radius: 0.5rem;
+    padding: 0.313rem 0.5rem;
+    display: flex;
+    position: relative
+}
+
+.type > img {
+    width: 1.25rem;
+    height: 1.25rem;
+    align-self: center;
+    position: absolute;
+    left: 0.5rem;
+}
+
+.type > p {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 14px;
+    position: absolute;
+    right: 0.8rem;
+}
+
+#pokemon{
+    width: 12.5rem;
+    height: 12.5rem;
+    position: absolute;
+    bottom: 3.75rem;
+    left: 16.875rem;
+}
+
+#pokebola {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.details {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.875rem;
+
+}
+
+.details > p {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 0.313rem;
+}
+
+.details > button {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    border-radius: 0.5rem ;
+    border: none;
+    width: 9.125rem;
+    height: 2.375rem;
+    margin-right: 1.375rem;
+    z-index: 1;
+}
+
+.details > p:hover {
+    color: #f17d96;
+}
+
+button:hover {
+    color: #f894a9;
+}
+
+button:active span {
+    display:none
+}
+
+button:active::after {
+    color: #f18199;
+    content: "Gotcha!";
+}
+
+@media screen and (max-width: 500px) {
+    .card{
+        width: 13.125rem;
+        height: 13.125rem;
+        left: 0.625rem;
+        top: 3.75rem;
+        position: relative;
+        background: #F4BDC9;
+        border-radius: 0.75rem;
+        padding: 1.563rem 0 0 1.438rem ;
+        display: flex;
+        flex-direction: column;
+}
+
+.details{
+    font-size: 14px
+}
+.details > button {    
+    width: 6.125rem;
+    height: 2rem;
+    margin-left: 23px;
+}
+
+#pokemon {
+    bottom: 3.75rem;
+    left: 6.875rem;
+}
+
+}
