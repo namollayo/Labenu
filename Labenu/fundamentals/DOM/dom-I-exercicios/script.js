@@ -21,10 +21,13 @@ const addFruit = () => {
     let inputAdd = document.getElementById("fruit").value
     frutas.push(inputAdd)
     document.getElementById("fruta-4").innerHTML = frutas[3]
-    if(frutas.length > 4) { addLi() }
+    if(frutas.length > 4) { 
+        addLi()
+     }
     console.log(frutas)
 }
 
 const addLi = () => {
-    document.getElementById("lista-de-frutas").innerHTML += `<li id='fruta-${frutas.length-1}'> ${frutas[frutas.length-1]} </li>`
+    document.getElementById("lista-de-frutas")
+    .innerHTML += `<li id='fruta-${frutas.length-1}'> ${frutas[frutas.length-1]} </li>`
 }
