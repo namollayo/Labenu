@@ -12,7 +12,7 @@ const PokemonCard = (props) => {
         <PokemonName>{props.pokemon.name.english}</PokemonName>
         <TypesContainer>
             {props.pokemon.type.map((type) => {
-                return <PokemonType key={type} src={getTypes(type)} alt='' />
+                return <PokemonType key={type} src={getTypes(type)}  />
             })}
         </TypesContainer>
         <p>Detalhes</p>
@@ -21,7 +21,7 @@ const PokemonCard = (props) => {
         <Pokemon src={`https://www.serebii.net/swordshield/pokemon/${props.pokemon.id}.png`} alt="" />
         <CatchButton>Capturar!</CatchButton>
       </div>
-      <Pokeball src={pokeball} alt="pokeball" />
+      <Pokeball src={pokeball} />
     </Container>
   );
 };
