@@ -1,0 +1,25 @@
+{
+  "name": "package-json-template",
+  "version": "1.0.0",
+  "description": "**Vamos utilizar esse repositório para as práticas da aula!**",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "practice1":"node ./practice1.js",
+    "returnBrazil": "node ./practice1.js Brazil",
+    "returnFirstLetterB": "node ./practice2.js B",
+    "addNewCountry": "node ./practice3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labenuexercicios/node-package-json-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labenuexercicios/node-package-json-template/issues"
+  },
+  "homepage": "https://github.com/labenuexercicios/node-package-json-template#readme"
+}
