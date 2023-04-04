@@ -143,7 +143,7 @@ app.put("/accounts/:id", (req: Request, res: Response) => {
         if (res.statusCode === 200) {
             res.status(500)
         }
-        if ( error instanceof Error) {
+        if (error instanceof Error) {
             res.send(error.message)
         } else {
             res.send("Unexpected error")
