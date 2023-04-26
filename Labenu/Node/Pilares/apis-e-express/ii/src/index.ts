@@ -47,7 +47,7 @@ app.put('/accounts/:id', (req: Request, res: Response)=>{
 
     
     const editableAccount = accounts.find((account)=> account.id === accountId)
-    if(editableAccount){
+    if (editableAccount) {
         editableAccount.id = id || editableAccount.id;
         editableAccount.ownerName = ownerName || editableAccount.ownerName;
         editableAccount.balance = isNaN(balance) ? editableAccount.balance : balance;
